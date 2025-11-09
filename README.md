@@ -1,11 +1,11 @@
-# 🌲 ML Assignment 3 — pipeline
+# ML Assignment 3 — pipeline
 
 This repository builds and evaluates a **machine learning pipeline** for predicting forest cover type using cartographic variables.
 It automates data ingestion, validation, transformation, model training, and evaluation — all driven by YAML configurations.
 
 ### What’s included
 
-#### 🧩 Root files
+#### Root files
 
 * **main.py** — orchestrates the full end-to-end pipeline (runs all stages sequentially)
 * **params.yaml** — stores model hyperparameters
@@ -16,7 +16,7 @@ It automates data ingestion, validation, transformation, model training, and eva
 
 ---
 
-#### 📦 src/ — main project modules
+#### src/ — main project modules
 
 | File / Folder   | Description                                                                       |
 | --------------- | --------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ It automates data ingestion, validation, transformation, model training, and eva
 
 ---
 
-#### 🗂 artifacts/ — runtime outputs
+#### artifacts/ — runtime outputs
 
 Created automatically when you run `main.py`.
 Stores:
@@ -41,13 +41,13 @@ Stores:
 
 ---
 
-#### 🧠 research/
+#### research/
 
 Experimental Jupyter notebooks for testing data loading, transformations, and model behavior before formalizing them into the pipeline.
 
 ---
 
-#### 🪵 logs/
+#### logs/
 
 Contains structured runtime logs for debugging and audit trails.
 
