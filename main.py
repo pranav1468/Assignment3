@@ -1,0 +1,64 @@
+
+from src.Assignment_3 import logger
+from src.Assignment_3.pipeline.Data_ingestion_stage import DataIngestionPipeline
+from src.Assignment_3.pipeline.Data_transformation_stage import DataTransformationPipeline
+from src.Assignment_3.pipeline.Data_validation_stage import DataValidationPipeline
+from src.Assignment_3.pipeline.Model_evaluation_stage import ModelEvaluationPipeline
+from src.Assignment_3.pipeline.Model_trainer_stage import ModelTrainerPipeline
+
+STAGE_NAME = "<<<<<<<Data Ingestion stage>>>>>>>>>"
+
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = DataIngestionPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+
+STAGE_NAME = "Data Validation stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+    data_ingestion = DataValidationPipeline()
+    data_ingestion.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+
+STAGE_NAME = "Data Transformation stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = DataTransformationPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+
+STAGE_NAME = "Model Trainer stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = ModelTrainerPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+
+STAGE_NAME = "Model evaluation stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = ModelEvaluationPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+

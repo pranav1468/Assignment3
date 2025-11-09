@@ -1,0 +1,59 @@
+COLUMNS:
+  ELEVATION : int64
+  ASPECT : int64
+  SLOPE  : int64
+  HORZ_DIST_HYDRO : int64
+  VERT_DIST_HYDRO : int64
+  HORZ_DIST_ROAD  : int64
+  HILLSHADE_9AM   : int64
+  HILLSHADE_NOON  : int64
+  HILLSHADE_3PM   : int64
+  HORZ_DIST_FIRE  : int64
+  WILDERNESS_AREA1: int64
+  WILDERNESS_AREA2: int64
+  WILDERNESS_AREA3: int64
+  WILDERNESS_AREA4: int64
+  SOIL_TYPE1      : int64
+  SOIL_TYPE2      : int64
+  SOIL_TYPE3      : int64
+  SOIL_TYPE4      : int64
+  SOIL_TYPE5      : int64
+  SOIL_TYPE6      : int64
+  SOIL_TYPE7      : int64
+  SOIL_TYPE8      : int64
+  SOIL_TYPE9      : int64
+  SOIL_TYPE10     : int64
+  SOIL_TYPE11     : int64
+  SOIL_TYPE12     : int64
+  SOIL_TYPE13     : int64
+  SOIL_TYPE14     : int64
+  SOIL_TYPE15     : int64
+  SOIL_TYPE16     : int64
+  SOIL_TYPE17     : int64
+  SOIL_TYPE18     : int64
+  SOIL_TYPE19     : int64
+  SOIL_TYPE20     : int64
+  SOIL_TYPE21     : int64
+  SOIL_TYPE22     : int64
+  SOIL_TYPE23     : int64
+  SOIL_TYPE24     : int64
+  SOIL_TYPE25     : int64
+  SOIL_TYPE26     : int64
+  SOIL_TYPE27     : int64
+  SOIL_TYPE28     : int64
+  SOIL_TYPE29     : int64
+  SOIL_TYPE30     : int64
+  SOIL_TYPE31     : int64
+  SOIL_TYPE32     : int64
+  SOIL_TYPE33     : int64
+  SOIL_TYPE34     : int64
+  SOIL_TYPE35     : int64
+  SOIL_TYPE36     : int64
+  SOIL_TYPE37     : int64
+  SOIL_TYPE38     : int64
+  SOIL_TYPE39     : int64
+  SOIL_TYPE40     : int64
+  COVER_TYPE: int64
+
+TARGET_COLUMN:
+  name: COVER_TYPE
